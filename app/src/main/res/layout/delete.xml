@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1E586"
+    android:orientation="vertical"
+    android:paddingTop="100dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="请输入需要删除的宿舍号"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/delete_et_house"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="宿舍号"
+        android:paddingTop="50dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#A2B65A"
+        android:onClick="delete"
+        android:text="确定"
+        android:textSize="15dp" />
+
+</LinearLayout>
